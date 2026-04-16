@@ -76,7 +76,7 @@ python app.py
 ```
 ### 4. Ouvrir dans le navigateur
 ```bash
-http://localhost:5000
+http://ip_du_machine:5000
 ```
 ### 5.Configuration ESP32
 Connecter l’ESP32 au même réseau WiFi que le PC puis modifier l’adresse IP du serveur Flask dans le code Arduino
