@@ -40,7 +40,7 @@ function update() {
     if (newVal !== undefined) {
       dataPoints.push(newVal);
 
-      // limite taille (scroll ECG)
+      
       if (dataPoints.length > 200) {
         dataPoints.shift();
       }
