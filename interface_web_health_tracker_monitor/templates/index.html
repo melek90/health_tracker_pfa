@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Health Tracker Monitor</title>
+
+<link rel="stylesheet" href="/static/style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<h1> Health Tracker Monitor</h1>
+
+<div class="stats">
+  <div class="box">❤️ BPM: <span id="bpm">0</span></div>
+  <div class="box">🌡 TEMP: <span id="temp">0</span> °C</div>
+</div>
+
+<div class="chart-wrapper">
+  <div class="grid"></div>
+  <canvas id="chart"></canvas>
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
